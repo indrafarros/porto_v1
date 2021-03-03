@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    min-height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(../images/body-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h2 {
+    font-family: 'Staatliches', cursive;
+}
+
+.navbar {
+    -webkit-transition: padding 0.2s ease;
+    -moz-transition: padding 0.2s ease;
+    -o-transition: padding 0.2s ease;
+    transition: padding 0.2s ease;
+}
+
+.affix {
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+    -webkit-transition: padding 0.2s linear;
+    -moz-transition: padding 0.2s linear;
+    -o-transition: padding 0.2s linear;
+    transition: padding 0.2s linear;
+}
+
+.header {
+    font-family: 'Sriracha', cursive;
+    padding: 60px 0;
+    background-image: url(../images/header.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header img {
+    height: 160px;
+    margin-bottom: 20px;
+    transform: rotate(-20deg);
+}
+
+.header .p {
+    font-size: 24px;
+    font-family: 'Staatliches', cursive;
+}
+
+.buttonscroll {
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: 90px;
+}
+
+.about {
+    text-align: center;
+    width: 100%
+}
+
+.about h2 {
+    margin-top: 10px;
+}
+
+.btop {
+    width: 9%;
+    border-top: solid 1px black;
+}
+
+.resume {
+    width: 100%;
+    color: #000;
+}
+
+.resumebg {
+    border-radius: 10px 10px;
+    padding: 100px;
+}
+
+.resume p {
+    text-align: justify;
+}
+
+.resume h2 {
+    font-size: 26px;
+    margin: 15px;
+    padding-top: 25px;
+    text-decoration: underline;
+}
+
+.resume h4 {
+    padding: 5px;
+}
+
+.resume img {
+    height: 50px;
+    margin: 3px;
+}
+
+.keahlian {
+    margin: 10px;
+    padding: 18px 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card img {
+    max-height: 340px;
+}
+
+.kontak {
+    text-align: center;
+    padding: 40px;
+    min-height: 420px;
+    margin-top: 60px;
+}
+
+.h_iframe {
+    position: relative;
+    padding-top: 6%;
+}
+
+.h_iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.kontak p {
+    font-size: 15px;
+}
+
+footer {
+    position: relative;
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    min-height: 100px;
+    width: 100%;
+}
+
+footer p {
+    margin-top: 5px;
+    position: absolute;
+}
+
+.porto2 {
+    margin: 0 auto;
+    width: 68%;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
